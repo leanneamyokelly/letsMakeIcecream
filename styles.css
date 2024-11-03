@@ -1,0 +1,251 @@
+html, body {
+    border: 0;
+    margin: 0;
+    background-color: #72ddf7;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'lobster';
+    color: #f15bb5;
+    font-size: 6rem;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 0;
+    margin: 0;
+}
+#photo1 {
+    background-image: url('https://images.unsplash.com/photo-1587563974670-b5181b459b30?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    width: 50%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#method {
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.instructions_content {
+    text-align: center;
+    font-family: 'Raleway';
+    color: #fee440;
+    line-height: 4rem;
+    font-size: 3rem;
+}
+
+#order {
+    text-align: center;
+    padding: 1rem;
+}
+.order_content {
+    text-align: center;
+    font-family: 'Raleway';
+    color: #FF51EB;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    line-height: 3rem;
+    border: 2px solid black;
+    padding: 0.5rem;
+    box-shadow: 4px 4px;
+    background-color: #fbf8cc;
+    font-size: 1.5rem;
+    font-family: 'Raleway';
+    color: #9b5de5;
+}
+
+input, select, button{
+    font-family: 'Raleway';
+    font-size: 1rem;
+    background-color: #fff1e6;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.3rem;
+}
+button:hover {
+    background-color: #f15bb5;
+}
+
+.orderResultDisplay{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 0;
+    margin: 0;
+}
+.orderReady {
+    visibility: hidden;
+    margin: 1rem auto;
+    width: 50%;
+    background-color: #fff1e6;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.display {
+    text-align: center;
+    font-family: 'Raleway';
+    line-height: 4rem;;
+    font-size: 2rem;
+    color: #9b5de5;
+}
+
+.result {
+    text-align: center;
+    font-family: 'lobster';
+    color: #f15bb5;
+    font-size: 3.5rem;
+    margin: 0 0 2rem 0;
+}
+
+.icecreamCone {
+    position: relative;
+    width: 20%;
+    height: 300px;
+    margin: auto 2rem auto auto;
+    visibility: hidden;
+}
+
+.cone {
+    position: absolute;
+    top: 50%;
+    right: 80%;
+    width: 0;
+    height: 0;
+    margin: 0 auto 50px auto;
+    border-top: 160px solid rgb(159, 141, 90);
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    z-index: 0;
+}
+
+.addScoop {
+    position: absolute;
+    top: 20%;
+    right: 80%;
+    width: 150px;
+    height: 150px;
+    background-color: #bb719f;
+    border-radius: 50%;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.toppings {
+    visibility: hidden;
+}
+
+.addTopping1 {
+    position: absolute;
+    top: 10%;
+    right: 80%;
+    width: 8px;
+    height: 15px;
+    background-color: #eba910;
+    border-radius: 50% 40% 30% 50%;
+    z-index: 2;
+}
+.addTopping2 {
+    position: absolute;
+    top: 1%;
+    right: 70%;
+    width: 8px;
+    height: 15px;
+    background-color: #e06fdc;
+    border-radius: 50% 40% 30% 50%;
+    z-index: 2;
+}
+.addTopping3 {
+    position: absolute;
+    top: 0%;
+    right: 50%;
+    width: 8px;
+    height: 15px;
+    background-color: #de7331;
+    border-radius: 50% 40% 30% 50%;
+    z-index: 2;
+}
+.addTopping4 {
+    position: absolute;
+    top: 10%;
+    right: 65%;
+    width: 8px;
+    height: 15px;
+    background-color: #258f9d;
+    border-radius: 50% 40% 30% 50%;
+    z-index: 2;
+}
+.addTopping5 {
+    position: absolute;
+    top: 10%;
+    right: 22%;
+    width: 8px;
+    height: 15px;
+    background-color: #24b85a;
+    border-radius: 50% 40% 30% 50%;
+    z-index: 2;
+}
+
+.addTopping6 {
+    position: absolute;
+    top: 1%;
+    right: 33%;
+    width: 8px;
+    height: 15px;
+    background-color: #bb2424;
+    border-radius: 50% 40% 30% 50%;
+    z-index: 2;
+}
+
+.addTopping7 {
+    position: absolute;
+    top: 15%;
+    right: 37%;
+    width: 8px;
+    height: 15px;
+    background-color: #d6cde3;
+    border-radius: 50% 40% 30% 50%;
+    z-index: 2;
+}
+
+.addTopping8 {
+    position: absolute;
+    top: 15%;
+    right: 50%;
+    width: 8px;
+    height: 15px;
+    background-color: #3443b6;
+    border-radius: 50% 40% 30% 50%;
+    z-index: 2;
+}
+
+.orderText {
+    text-align: center;
+    font-family: 'Raleway';
+    color: #e9ad35;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+

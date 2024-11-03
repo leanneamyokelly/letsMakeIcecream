@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="heading">The Ice-cream Factory</h1>
+
+    <section class="instructions">
+        <div id="photo1"></div>
+
+        <div id="method">
+            <h2 class="instructions_content">How it works:</h2>
+            <p class="instructions_content"> 1. Choose your flavour.<br>
+                2. Choose your topping.<br>
+                3. Watch the magic happen. 
+            </p>
+        </div>
+    </section>
+
+    <section id="order">
+        <h2 class="order_content">Place your order</h2>
+
+        <form method="post">
+          <label for="name">Name: </label>
+          <input id="name" type="text"><br>
+
+          <label for="flavor">Choose your flavor:</label>
+          <select name="Flavor" id="flavor">
+            <option class="c_flavor" value="chocolate">Chocolate</option>
+            <option class="c_flavor" value="vanilla">Vanilla</option>
+            <option class="c_flavor" value="strawberry">Strawberry</option>
+          </select><br>
+
+          <label for="topping">Choose your topping:</label>
+          <select name="Topping" id="topping">
+            <option value="sprinkles">Sprinkles</option>
+            <option value="nuts">Nuts</option>
+            <option value="fudge">Fudge</option>
+          </select><br>  
+          <button>Submit!</button>
+        </form>
+    </section>
+
+    <section class="orderResultDisplay">
+      <div class="orderReady"></div>
+      <section class="icecreamCone">
+        <span class="cone"></span>
+        <span class="addScoop">
+          <div class="toppings">
+            <span class="addTopping1"></span>
+            <span class="addTopping2"></span>
+            <span class="addTopping3"></span>
+            <span class="addTopping4"></span>
+            <span class="addTopping5"></span>
+            <span class="addTopping6"></span>
+            <span class="addTopping7"></span>
+            <span class="addTopping8"></span>
+          </div>
+        </span>
+        
+      </section>
+      
+    </section>
+
+    
+    
+    <script src="Icecream.js"></script>
+</body>
+</html>
